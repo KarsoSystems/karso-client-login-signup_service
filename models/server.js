@@ -35,6 +35,9 @@ class Server {
             console.log('Servidor corriendo en puerto', this.port );
         });
     }
+    app(){
+        return this.app
+    }
 
 }
 
